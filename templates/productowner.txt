@@ -1,0 +1,30 @@
+<section class="machine-learning">
+    <div class="justify-content-center wrapper">
+        <div class="navigation-panels justify-content-center">
+            <li id='items1'><h2 class="items bar 0 active" id='0'>Predicted Result</h2></li>
+            <li id='items2'><h2 class="items bar 1" id='1'>False Transaction</h2></li>
+            <li id='log-out'><h2 class="items">Log Out</h2></li>
+        </div>
+    </div>
+
+    <hr>
+
+    <!-- predict-model Interface -->
+    <div class="predict-model active panel">
+        <div class="container">
+            <div class="prediction-result area" id="prediction-result-all">
+                No Data Available
+            </div>
+        </div>
+    </div>
+
+    <!-- false_transaction Interface -->
+    <div class="predict-model panel">
+        <div class="container">
+            <div class="prediction-result area" id='fraud-transaction'>
+                No Data Available
+            </div>
+        </div>
+    </div>
+
+</section>

@@ -1,0 +1,70 @@
+
+/* Input Fields */
+
+.inputs {
+    margin-top: 20px;
+}
+
+.input {
+    height: 32px;
+    font-size: 13px;
+    width: 550px;
+    padding-left: 10px;
+
+    /* opacity: 0.5; */
+    border-color: none;
+    border-style: none;
+    border-width: none;
+    background-color: var(--black);
+    border-radius: 3px;
+    color: white;
+}
+
+.input:focus {
+    background-color: white;
+    border: none;
+}
+
+input[type='button'] {
+    font-size: 13px;
+    border-radius: 2px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    background-color: var(--black);
+    color: white;
+
+    transition: 0.7s ease;
+}
+
+input[type='button']:hover {
+    color: var(--black);
+    background-color: white;
+}
+
+input[type='text']:focus {
+    color: var(--black);
+}
+
+.input-fields {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.btn {
+    min-width: 90px;
+    height: 32px;
+}
+
+/* Data - Area */
+.area {
+    background-color: var(--black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+    border-radius: 5px;
+}

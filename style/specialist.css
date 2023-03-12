@@ -1,0 +1,82 @@
+
+/* Panel 1 */
+.sample-model.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 85%;
+}
+
+.sample-info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin-bottom: 17px;
+    margin-top: 10px;
+}
+
+.sample-info-wrapper {
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.total-data {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 13px;
+
+    background-color: var(--black);
+    color: white;
+    border: none;
+}
+
+.total-data:focus {
+    border: none;
+    background-color: white;
+    color: var(--black);
+}
+
+#download {
+    width: 120px;
+    height: 32px;
+}
+
+
+.sample-data {
+    height: 490px;
+}
+
+/* Panel 2 */
+.false-transaction.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 85%;
+}
+
+.working-data {
+    height: 490px;
+
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.update-data {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#update {
+    width: 120px;
+}

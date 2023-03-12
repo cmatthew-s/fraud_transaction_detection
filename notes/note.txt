@@ -1,0 +1,6 @@
+# NOTE: data != False, is not correct
+    # if df != False:
+    #     # pyscript.write('show-data', 'table')
+    #     alert('data available')
+
+# NOTE: pyscript.write() works by replacing contents

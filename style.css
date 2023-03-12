@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    /* Color template 1 */
+    --very-dark: #0F044C;
+    --dark: #141E61;
+    --medium-dark: #787A91;
+    --light: #EEEEEE;
+
+    /* Color template 2 */
+    --white: #F7F7F7;
+    --light-green: #7DA2A9;
+
+    /* Color template 3 */
+    --black: #181B23;
+    --green: #6DD35E;
+    --pink: #C9395C;
+    --yellow: #FFAB00;
+    --blue: #2F91E7;
+    --purple: #8F5FE8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+
+    /* overflow-y: hidden; */
+    overflow-x: hidden;
+}
+  
+
+body {
+    background: #000;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1.2rem;
+}
+
+section {
+    height: 100vh;
+    width: 100vw;
+}
+
+.justify-content-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.justify-content-space-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input[type='button']:hover {
+    cursor: pointer;
+}
+
+#templates {
+    width: 100%;
+    height: 100%;
+}

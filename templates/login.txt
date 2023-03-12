@@ -1,0 +1,27 @@
+<section class="login-page justify-content-center">
+    <div class="container">
+        <div class="headings">
+            <h2 class="company-name">
+                Welcome <span class="name-login-page">Xynide Cooperation</span> !
+            </h2>
+        </div>
+    
+        <!-- Sign In -->
+        <div class="account-wrapper wrapper">
+            <h1>Sign In</h1>
+            <form action="">
+                <input id="email" type="text" placeholder="Your Email" class='input-login'>
+                <input id='password' type="password" placeholder="Password" class='input-login'>
+                <select id='role' type="text" class='select-login'>
+                    <option value="none" selected disabled hidden>Select Your Role</option>
+                    <option value="Machine Learning Developer">Machine Learning Developer</option>
+                    <option value="Data Management">Data Management</option>
+                    <option value="Trainned Specialist">Trainned Specialist</option>
+                    <option value="Product Owner">Product Owner</option>
+                </select>
+            
+                <input id='submit' class='sign-in-btn btn' type="button" value="Sign In">
+            </form>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,47 @@
+<section class="machine-learning">
+    <div class="justify-content-center wrapper">
+        <div class="navigation-panels justify-content-center">
+            <li id='items1'><h2 class="items bar 0 active" id='0'>Sample Data</h2></li>
+            <li id='items2'><h2 class="items bar 1" id='1'>Manual Prediction</h2></li>
+            <li id='log-out'><h2 class="items">Log Out</h2></li>
+        </div>
+    </div>
+
+    <hr>
+
+    <!-- Sample Model Interface -->
+    <div class="sample-model active panel">
+        <div class="container">
+
+            <div class="sample-info">
+                <div class="sample-info-wrapper">
+                    <h3 class="number">Sample 
+                        <span>
+                            <input type="text" class="total-data" placeholder="0" id='total-sampled-data'>
+                        </span>
+                        Data
+                    </h3>
+
+                    <input id="start-sample" type="button" value="Sample" class="btn">
+                </div>
+            </div>
+
+            <div class="sample-data area" id='show-sample-data'>
+                <p class="No Data Available">No Data Available</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- set false transaction Interface -->
+    <div class="false-transaction panel">
+        <div class="container">
+            <div class="working-data area" id='update-area'>
+                No Data Available
+            </div>
+            <div class="update-data">
+                <input id="update-sampled-renew-data" type="button" value="Update" class="btn">
+            </div>
+        </div>
+    </div>
+
+</section>

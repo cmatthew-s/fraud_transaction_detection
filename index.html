@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fraud Detection Software</title>
+
+    <!-- Extras -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style/templates.css">
+    <link rel="stylesheet" href="./style/login.css">
+    <link rel="stylesheet" href="./style/mldev.css">
+    <link rel="stylesheet" href="./style/navigation.css">
+    <link rel="stylesheet" href="./style/datamanagement.css">
+    <link rel="stylesheet" href="./style/table.css">
+    <link rel="stylesheet" href="./style/specialist.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Python Files -->
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+    <py-env>
+        - pandas
+        - regex
+        - scikit-learn
+        - seaborn
+        - matplotlib
+        - numpy
+        - lxml
+        - paths:
+            - ./system/Account.py
+            - ./system/Data.py
+            - ./system/MLDev.py
+            - ./system/TrainnedSpecialist.py
+            - ./data/data_account.db
+            - ./data/real_time_data.csv
+            - ./templates/datamanagement.txt
+            - ./templates/login.txt
+            - ./templates/mldev.txt
+            - ./templates/productowner.txt
+            - ./templates/specialist.txt
+    </py-env>
+
+</head>
+<body>
+
+    <!-- Content -->
+    <div class="template-content" id="templates"></div>
+
+    <py-script src="./sensors/setup-sensors.py"></py-script>
+    <py-script src="./sensors/log_out.py"></py-script>
+    <py-script src="./sensors/mld_sensors.py"></py-script>
+    <py-script src="./sensors/navigation.py"></py-script>
+    <py-script src="./sensors/product_owner_sensors.py"></py-script>
+    <py-script src="./sensors/specialist_sensors.py"></py-script>
+    <py-script src="./sensors/main_sensors.py"></py-script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<section class="machine-learning">
+    <div class="justify-content-center wrapper">
+        <div class="navigation-panels justify-content-center">
+            <li id='items1'><h2 class="items bar 0 active" id='0'>Generate Model</h2></li>
+            <li id='items2'><h2 class="items bar 1" id='1'>Predict Data</h2></li>
+            <li id='items3'><h2 class="items bar 2" id='2'>Retrain Model</h2></li>
+            <li id='log-out'><h2 class="items">Log Out</h2></li>
+        </div>
+    </div>
+
+    <hr>
+    <!-- Generate Model Interface -->
+    <div class="generate-model panel active">
+        <div class="data-inputs">
+            <div class="inputs input-fields">
+                <input type="file" id="submitted-data-csv" class="data-file" accept=".csv">
+                <input id="submit-file" type="button" value="Submit" class="btn">
+            </div>
+            <div class="data area" id="show-data">
+                No Data Available...
+            </div>
+            <div class="delete input-fields">
+                <input type="text" id="deleted-columns" placeholder="Delete Columns" class="input">
+                <input id="deleted-col" type="button" value="Delete" class="btn">
+            </div>
+            <div class="target input-fields">
+                <input type="text" id="target-data" placeholder="Taget Value" class="input">
+                <input id="target" type="button" value="Set" class="btn">
+            </div>
+            <div class="model input-fields">
+                <input id="predict" type="button" value="Predict" class="start">
+                <input id="safe" type="button" value="Safe Model" class="start">
+            </div>
+        </div>
+        <div class="data-visualization">
+            <div class="correlation area" id="correlation">
+                <p class="no-data">No Data Available</p>
+            </div>
+            <div class="accuracy" id="accuracy">
+                <div class="train-accuracy">
+                    <h2 class="title">Train</h2>
+                    <p id="accuracy">Accuracy:  <span id="train-accuracy-value">-</span></p>
+                    <p id="matrix">Confusion Matrix:  <br><span id="train-matrix">-</span></p>
+                    <p id="auc">Area Under Curve:  <span id="train-auc">-</span></p>
+                    <p id="recall">Recall Score:  <span id="train-recall">-</span></p>
+                </div>
+                <div class="validation-accuracy">
+                    <h2 class="title">Validation</h2>
+                    <p id="accuracy">Accuracy:  <span id="val-accuracy-value">-</span></p>
+                    <p id="matrix">Confusion Matrix:  <br><span id="val-matrix">-</span></p>
+                    <p id="auc">Area Under Curve:  <span id="val-auc">-</span></p>
+                    <p id="recall">Recall Score:  <span id="val-recall">-</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- predict-model Interface -->
+    <div class="predict-model panel">
+        <div class="container">
+            <div class="model-information">
+                <div class="model-criteria">
+                    <h2 class="model-name">Model Information</h2>
+                    <p class="accuracy-score">Accuracy: <span id="use-model-accuracy">-</span></p>
+                    <p class="AUCScore">AUC Score:  <span id="use-model-auc">-</span></p>
+                </div>
+                <input id="start-prediction" type="button" value="Start Prediction" class="btn">
+            </div>
+
+            <div class="prediction-result area" id="prediction-result">
+                No Data Available
+            </div>
+        </div>
+    </div>
+
+    <!-- Retrain Model Interface -->
+    <div class="retrain-model panel">
+        <div class="container">
+            <div class="model-accuracy area">
+                Coming Soon
+            </div>
+            <div class="sample-data area" id='sample-machine-learning-data'>
+                Coming Soon
+            </div>
+            <!-- Train model -->
+            <div class="retrain-model-start">
+                <input id="retrain" type="button" value="Coming Soon" class="btn">
+            </div>
+        </div>
+    </div>
+
+
+</section>

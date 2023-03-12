@@ -1,0 +1,51 @@
+ <section class="machine-learning">
+    <div class="justify-content-center wrapper">
+        <div class="navigation-panels justify-content-center">
+            <li id='items1'><h2 class="items bar 0 active" id='0'>History Datasets</h2></li>
+            <li id='items2'><h2 class="items bar 1" id='1'>Prediction Result</h2></li>
+            <li id='items3'><h2 class="items bar 2" id='2'>Specialist Analysis Result</h2></li>
+            <!-- <li id='items4'><h2 class="items bar 3" id='3'>Accounts</h2></li> --!>
+            <li id='log-out'><h2 class="items">Log Out</h2></li>
+        </div>
+    </div>
+
+    <hr>
+
+    <!-- History Datasets Interface -->
+    <div class="history-datasets active panel">
+        <div class="container">
+            <div class="history area">
+                Coming Soon...
+            </div>
+        </div>
+    </div>
+
+    <!-- Prediction Datasets Interface -->
+    <div class="prediction-datasets panel">
+        <div class="container">
+            <div class="result area">
+                Coming Soon...
+            </div>
+        </div>
+    </div>
+
+    <!-- Analysis Result Interface -->
+    <div class="analysis-result panel">
+        <div class="container">
+            <div class="result area">
+                Coming Soon...
+            </div>
+        </div>
+    </div>
+
+    <!-- Accounts Interface -->
+    <!-- <div class="analysis-result panel">
+        <div class="container">
+            <div class="result area">
+                <p class="no-data">No Data Available</p>
+            </div>
+        </div>
+    </div> -->
+
+
+</section>

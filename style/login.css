@@ -1,0 +1,58 @@
+
+.headings {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.company-name {
+    color: white;
+}
+
+.name-login-page {
+    color: var(--yellow);
+}
+
+.account-wrapper {
+    display: block;
+    width: 330px;
+    /* height: auto; */
+    padding: 2rem 1rem;
+    margin: 50px auto;
+    margin-top: 25px;
+    background-color: var(--black);
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 20px 35px rgba(20, 30, 97, 0.1);
+}
+
+.input-login, .select-login, .sign-in-btn {
+    width: 92%;
+    outline: none;
+    border: .01px solid rgb(149, 149, 149);
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background: var(--black);
+
+    font-size: 13px;
+    color: white;
+}
+
+.input-login:focus{
+    color: white !important;
+}
+
+.account-wrapper h1 {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+form .sign-in-btn {
+    width: 35%;
+    padding: 5px;
+    margin-top: 25px;
+    color: white;
+}

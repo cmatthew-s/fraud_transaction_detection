@@ -1,0 +1,143 @@
+
+* {
+    padding: 0;
+    margin: 0;
+
+    color: white;
+}
+
+.panel { display: none; }
+
+/* Panel 1 */
+
+.machine-learning {
+    padding-top: 45px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+}
+
+.generate-model.active {
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.data-file {
+    background-color: var(--black);
+    width: 550px;
+    height: 35px;
+
+    padding: 5px;
+    font-size: 13px;
+    border-radius: 3px;
+}
+
+.data {
+    width: 670px;
+    height: 320px;
+    margin-bottom: 25px;
+}
+
+.model input {
+    width: 317px;
+    height: 30px;
+}
+
+.correlation {
+    width: 600px;
+    height: 360px;
+}
+
+.accuracy {
+    margin-top: 25px;
+    height: 160px;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 11px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: var(--black);
+}
+
+.accuracy h2 {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+/* Panel 2 */
+.predict-model.active {
+    display: block;
+    padding-top: 25px;
+    height: 83%;
+}
+
+.predict-model .container {
+    height: 100%;
+}
+
+.predict-model .model-criteria {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 850px;
+    text-align: center;
+}
+
+.model-criteria h2 {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.predict-model .model-information {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.predict-model .prediction-result {
+    width: 100%;
+    height: 100%;
+    margin-top: 28px; 
+}
+
+#start-prediction {
+    width: 200px;
+}
+
+/* Panel 3 */
+.retrain-model.active {
+    display: block;
+    width: 100%; 
+    height: 85%;
+
+    padding-top: 25px;
+}
+
+.retrain-model .sample-data {
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.retrain-model .model-accuracy {
+    width: 100%;
+    height: 270px;
+}
+
+.retrain-model-start {
+    width: 100%; 
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 25px;
+}
+
+#retrain {
+    width: 180px;
+}
+
+
+

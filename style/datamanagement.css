@@ -1,0 +1,40 @@
+
+.history-datasets.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 85%;
+}
+
+.history {
+    margin-top: 20px;
+    height: 550px;
+}
+
+/* Panel 2 */
+
+.prediction-datasets.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 85%;
+}
+
+.result {
+    margin-top: 20px;
+    height: 550px;
+}
+
+/* Panel 3 */
+.analysis-result.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 85%;
+}

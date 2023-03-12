@@ -1,0 +1,61 @@
+
+.headings {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.company-name {
+    color: white;
+}
+
+.name {
+    color: var(--yellow);
+}
+
+.account-wrapper {
+    display: block;
+    width: 330px;
+    /* height: auto; */
+    padding: 2rem 1rem;
+    margin: 50px auto;
+    margin-top: 25px;
+    background-color: var(--black);
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 20px 35px rgba(20, 30, 97, 0.1);
+}
+
+form input, select {
+    width: 92%;
+    outline: none;
+    border: .01px solid rgb(149, 149, 149);
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background: var(--black);
+
+    font-size: 13px;
+    color: white;
+}
+
+.account-wrapper h1 {
+    color: #fff;
+}
+
+form .terms {
+    margin-top: 0.2rem;
+}
+
+form .terms input {
+    height: .9em;
+    width: .9em;
+}
+
+form .btn {
+    width: 35%;
+    padding: 5px;
+    margin-top: 25px;
+    color: white;
+}
