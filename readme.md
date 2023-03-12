@@ -1,4 +1,8 @@
-# References
+# Fraud Transaction Detection
+This project creates a PyScript based website to  detect any Fraudulent Transaction that occurs.
+The datasets are from https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+
+## References
 1. py-script [link](https://blog.devgenius.io/pyscript-a-new-way-of-building-html-websites-tutorial-for-beginners-67a75935e039)
 2. Introduction to py-script [link](https://youtu.be/ExnPNHN5RDo) 
 3. Table csv using py-script [link](https://github.com/aslibaraf/pyscript/tree/main/Read%20csv)
